@@ -6,6 +6,18 @@
       "image": "asifhajiyev/multi-client",
       "hostname": "client",
       "essential": false
+    },
+    {
+      "name": "server",
+      "image": "asifhajiyev/multi-server",
+      "hostname": "api",
+      "essential": false
+    },
+    {
+      "name": "worker",
+      "image": "asifhajiyev/multi-worker",
+      "hostname": "worker",
+      "essential": false
     }
   ]
 }
